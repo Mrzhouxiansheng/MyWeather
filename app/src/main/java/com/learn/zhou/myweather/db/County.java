@@ -2,12 +2,12 @@ package com.learn.zhou.myweather.db;
 
 import org.litepal.crud.DataSupport;
 
-//创建县的实体类及天气id
+//创建县级实体类及天气id
 
-public class Conty extends DataSupport {
+public class County extends DataSupport {
     private int id;
-    private String contyName;
-    private int contyCode;
+    private String countyName;
+    private int cityId;
     private String weatherId;
 
     public int getId() {
@@ -18,20 +18,20 @@ public class Conty extends DataSupport {
         this.id = id;
     }
 
-    public int getContyCode() {
-        return contyCode;
+    public String getCountyName() {
+        return countyName;
     }
 
-    public void setContyCode(int contyCode) {
-        this.contyCode = contyCode;
+    public void setCountyName(String countyName) {
+        this.countyName = countyName;
     }
 
-    public String getContyName() {
-        return contyName;
+    public int getCityId() {
+        return cityId;
     }
 
-    public void setContyName(String contyName) {
-        this.contyName = contyName;
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
 
     public String getWeatherId() {
@@ -42,3 +42,5 @@ public class Conty extends DataSupport {
         this.weatherId = weatherId;
     }
 }
+
+

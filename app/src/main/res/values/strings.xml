@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyWeather</string>
+    <string name="app_name">我的天气</string>
+    <string name="returns">后退</string>
 </resources>

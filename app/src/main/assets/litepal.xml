@@ -5,6 +5,6 @@
     <list>
         <mapping class="com.learn.zhou.myweather.db.Province"/>
         <mapping class="com.learn.zhou.myweather.db.City"/>
-        <mapping class="com.learn.zhou.myweather.db.Conty"/>
+        <mapping class="com.learn.zhou.myweather.db.County"/>
     </list>
 </litepal>
